@@ -1,0 +1,9 @@
+config-version: 3
+
+path-final: "mongodb+srv://yeruza2blea:thebadboy_combo70@serverdb.eg0wd.mongodb.net/?retryWrites=true&w=majority&appName=ServerDB"
+
+database:
+  host: "serverdb.eg0wd.mongodb.net"
+  username: "yeruza2blea"
+  password: "thebadboy_combo70"
+  app-name: "ServerDB"

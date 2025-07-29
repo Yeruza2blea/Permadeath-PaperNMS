@@ -1,0 +1,17 @@
+config-version: 3
+server:
+  spanish:
+    on-join: '&a{player} &7se ha unido al servidor'
+    on-leave: '&a{player} &7se ha salido del servidor'
+    storm-end: '&7La tormenta ha llegado a su fin de momento'
+    sleep: '&a{player} &7fue a dormir el pana'
+    sleeping: '&a{player} &7estÃ¡ duermiendo &e(&b{player_size}/&b{needed})'
+    death-title: '&c&lÂ¡PERMADEATH!'
+    death-subtitle: '&6&l{player} &fha muerto'
+    death-chat: '&c&lEste es el comienzo del sufrimiento eterno de &4&l{player}&c&l.
+      Â¡HA SIDO PERMABANEADO!'
+    death-train-message: '&cÂ¡Comienza el Death Train con duraciÃ³n de {time_left}
+      horas!'
+    death-train-message-time: '&cÂ¡Comienza el Death Train con duraciÃ³n de {time_left}
+      minutos!'
+    action-bar-message: '&e&lQuedan &f&l{time_left}&e&l de tormenta'

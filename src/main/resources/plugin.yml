@@ -1,0 +1,55 @@
+name: Permadeath
+version: '2.1.5'
+main: dev.yeruza.plugin.permadeath.Permadeath
+api-version: '1.21.8'
+softdepend: [ WorldEdit, PlaceHolderAPI ]
+load: STARTUP
+author: yeruza2blea
+description: "Este plugin es una recreación de Permadeath"
+
+permissions:
+  permadeath.owner:
+    children:
+      - permadeath.admin
+
+  permadeath.admin:
+    children:
+      - permadeath.staff.ban-player
+      - permadeath.staff.ban-ip
+      - permadeath.staff.kick-player
+      - permadeath.mod
+  permadeath.mod:
+    children:
+      - permadeath.staff.manage-scoreboard
+      - permadeath.staff.manage-nicknames
+      - permadeath.staff.manage-tablist
+      - permadeath.special-rank.fly
+
+
+  permadeath.special-rank.fly:
+    description: "Puedes volar aunque este en modo supervivencia"
+    default: not op
+  permadeath.staff.ban-player:
+    description: "Permite banear a jugadores del servidor"
+    default: op
+  permadeath.staff.kick-player:
+    description: "Permite expulsar a jugadores del servidor"
+    default: op
+  permadeath.staff.ban-ip:
+    description: "Permite banear a un jugador desde su ip privada"
+    default: op
+  permadeath.staff.manage-nicknames:
+    description: "Permite gestionar apodos de los jugadores"
+    default: op
+  permadeath.staff.manage-scoreboard:
+    description: "Permite gestionar los scoreboards del servidor"
+    default: op
+  permadeath.staff.manage-tablist:
+    description: "Permite gestionar las tablists del servidor"
+    default: op
+  permadeath.user.change-nickname:
+    description: "Permite manipular tu apodo dentro del servidor"
+    default: not op
+  permadeath.user.talk-private:
+    description: "Permite hablar con otro jugador en privado"
+    default: not op

@@ -1,0 +1,7 @@
+config-version: 3
+discord:
+  enable: false
+  token-bot: ""
+  channel:
+    player-death: "id:123456789"
+    changes-of-dificult: "id:1234567"

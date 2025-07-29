@@ -1,0 +1,17 @@
+config-version: 3
+
+server:
+  options:
+    enabled: true
+  scoreboard:
+    main:
+      id: "score_main"
+      title: "{animation:scoreboard.permadeath.title-main}"
+      lines:
+        - "{animation:red_bars}"
+        - "&7 Día:"
+        - "- &c&l{player}"
+        - "&7ᴘɪɴɢ&8: &r{ping}"
+        - "&7ʀᴀɴᴋ&8: &r{rank_current}"
+        - ""
+        - "{animation:red_bars}"

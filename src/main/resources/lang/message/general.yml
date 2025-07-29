@@ -1,0 +1,27 @@
+config-version: 3
+
+server:
+  spanish:
+    on-join: "{player} se ha unido al servidor"
+    on-leave: "{player} se ha salido del servidor"
+    storm-end: "&7La tormenta ha llegado a su fin de momento"
+    sleep: "&a{player} &efue a dormir el pana"
+    sleeping: "&a{player} &eestá durmiendo &e(&b{players_size}7/&b{needed}&e)"
+    death-title: "&c¡Permadeath!"
+    death-subtitle: "&6&l{player} &fha muerto"
+    death-chat: "&c&lEste es el comienzo del sufrimiento eterno de &4&l{player}&c&l. ¡HA SIDO PERMABANEADO!"
+    death-train-message: "&c¡Comienza el Death Train con duración de {time} horas!"
+    death-train-message-time: "&c¡Comienza el Death Train con duración de {time_left} minutos!"
+    action-bar-message: "&eQuedan &2{time_left}&e de tormenta"
+  english:
+    on-join: "&e{player} joined the game"
+    on-leave: "&e{player} left the game"
+    storm-end: "&cThe storm has ended"
+    sleep: "&7{player} &ejust went to sleep, Sweet dreams!"
+    sleeping: "&7%player% &eis now sleeping &e(&b{players_size}&7/&b{needed}&e)"
+    death-title: "&c¡Permadeath!"
+    death-subtitle: "{player} died"
+    death-chat: "&c&lThis is the beginning of &4&l{player}&7's eternal suffering. &c&lTHEY'VE BEEN PERMA-BANNED!"
+    death-train-message: "&cThe Death Train is now ongoing for {time_left} hours!"
+    death-train-message-minutes: "&cThe Death Train is now ongoing for {time_left} minutes!"
+    action-bar-message: "&7The storm will end on {time_left}"

@@ -1,0 +1,62 @@
+[04:24:36] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Eclipse Adoptium Temurin-21.0.5+11) on Windows 11 10.0 (amd64)
+[04:24:36] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-17-main@dbc367b (2025-07-26T21:53:33Z) for Minecraft 1.21.8
+[04:24:37] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:24:38] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[04:24:38] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+ - Permadeath (2.1.5), PlaceholderAPI (2.11.6), WorldEdit (7.3.16+cbf4bd5)
+[04:24:44] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:24:46] [ServerMain/INFO]: Loaded 1407 recipes
+[04:24:46] [ServerMain/INFO]: Loaded 1520 advancements
+[04:24:46] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[04:24:46] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 369.6ms
+[04:24:46] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[04:24:46] [Server thread/INFO]: Loading properties
+[04:24:46] [Server thread/INFO]: This server is running Paper version 1.21.8-17-main@dbc367b (2025-07-26T21:53:33Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[04:24:46] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:24:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:24:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:24:47] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[04:24:47] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[04:24:47] [Server thread/INFO]: Default game type: SURVIVAL
+[04:24:47] [Server thread/INFO]: Generating keypair
+[04:24:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:24:48] [Server thread/INFO]: Using default channel type
+[04:24:48] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[04:24:48] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[04:24:48] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
+[04:24:49] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@74637fa4]
+[04:24:49] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[04:24:49] [Server thread/INFO]: [Permadeath] Loading server plugin Permadeath v2.1.5
+[04:24:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:24:49] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
+[04:24:49] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[04:24:49] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[04:24:49] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
+[04:24:51] [Server thread/INFO]: [Permadeath] Enabling Permadeath v2.1.5
+[04:24:51] [Server thread/INFO]: Preparing level "world"
+[04:24:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:24:52] [Server thread/INFO]: Preparing spawn area: 0%
+[04:24:52] [Server thread/INFO]: Preparing spawn area: 0%
+[04:24:53] [Server thread/INFO]: Time elapsed: 839 ms
+[04:24:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:24:53] [Server thread/INFO]: Preparing spawn area: 0%
+[04:24:53] [Server thread/INFO]: Time elapsed: 78 ms
+[04:24:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:24:53] [Server thread/INFO]: Preparing spawn area: 0%
+[04:24:53] [Server thread/INFO]: Time elapsed: 60 ms
+[04:24:53] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[04:24:53] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[04:24:53] [Server thread/INFO]: [spark] Starting background profiler...
+[04:24:53] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[04:24:53] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[04:24:53] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[04:24:53] [Server thread/INFO]: Done preparing level "world" (2.745s)
+[04:24:53] [Server thread/INFO]: Running delayed init tasks
+[04:24:53] [Server thread/INFO]: PermadeathDeshabilitando Creeper-Lingering-Effect
+[04:24:53] [Server thread/INFO]: PermadeathDeshabilitando Creeper-Lingering-Effect
+[04:24:53] [Server thread/INFO]: PermadeathDeshabilitando Creeper-Lingering-Effect
+[04:24:53] [Server thread/INFO]: [Permadeath] Software: PaperMC (Compatible)
+[04:24:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: permadeath [1.21.4]
+[04:24:54] [Server thread/WARN]: [Permadeath] plugins\Permadeath\logs.text (Acceso denegado)
+[04:24:54] [Server thread/INFO]: Done (18.259s)! For help, type "help"
+[04:27:38] [Server thread/INFO]: La tormenta ha llegado a su fin de momento

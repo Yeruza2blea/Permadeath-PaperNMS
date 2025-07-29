@@ -1,0 +1,14 @@
+config-version: 3
+
+server:
+  options:
+    enabled: true
+    tab-list:
+      main:
+        id: "tablist_main"
+        header:
+        - "#ff0000&lPermadeath"
+        - "Jugadores: {player_size} - Ping: {player_ping}"
+        - "Estamos en el día: &c&l{day}"
+        footer:
+        - ""

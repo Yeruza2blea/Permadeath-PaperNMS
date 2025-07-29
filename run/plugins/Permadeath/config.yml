@@ -1,0 +1,116 @@
+config-version: 3
+
+prefix: '&4&lPermadeath'
+
+ban-enabled: true
+
+date: '2025-07-28'
+
+afk-options:
+  anti-afk-enabled: true
+  days-limit: 5
+  bypass:
+  - xel0Yzyruza_
+  - Yeruza_AA
+
+
+
+don't-touch:
+  play-time: 0
+  event:
+    life-orb-ended: false
+
+
+speedrun-mode: false
+
+toggles:
+  default-death-sounds-enabled: true
+  optifine: true
+  double-mod-cap: true
+  end:
+    boss: INITIAL
+    mob-spawn-limit: 70
+    ender-wither-skeleton-count: 20
+    ender-blaze-count: 20
+    ender-creeper-count: 20
+    ender-ghast-count: 70
+    protect-spawn: false
+    protect-radius: 0
+    permadeath-demon:
+      names:
+        normal: '&c&lPERMADEATH &4&lGODMON'
+        enraged: '&l&k! &r&6&lENRAGED PERMADEATH GODMON &l&k!'
+        psycho: '&#&l&k!! &r&5&lPYSCHO PERMADEATH &d&lGODMON &l&k!!'
+      health:
+        normal: 3000
+        enraged: 1200
+        psycho: 600
+  nether:
+    mob-spawn-limit: 70
+    protect-spawn: false
+    protect-radius: 0
+    generate-pure-netherite: true
+    change-drop-pure-netherite: 13
+  the-beginning:
+    ytic-generate-chances: 50000
+    hostile-mobs: true
+    portal:
+      self:
+      - 5000
+      - 5000
+      overworld:
+      - 5000
+      - 5000
+  player-skulls: true
+  op-ban: true
+  spider-effect: true
+  optimize-mob-spawn: true
+  replace-mobs-on-chunk-load: true
+  quantum-explosion-power: 60
+  cat-supernova:
+    destroy-blocks: true
+    fire: false
+    explosion: 200
+
+
+server-options:
+  messages:
+    coords-enable: true
+    death-default: '&7{player} ha muerto y ahora descanza en paz.'
+    death-custom-path: messages/custom-death
+
+
+world-options:
+  main:
+    overworld: '&aOne Life'
+    nether: '&4Last Bastion'
+    the-end: '&5The End'
+
+
+totem-options:
+  enable: true
+  not-enough-totems: '&7Â¡%player% no tenÃ­a suficientes tÃ³tems en el inventario!'
+  player-fail-message:
+    totem: '&7Â¡El tÃ³tem de &c{player} &7ha fallado!'
+    totems: '&7Â¡Los tÃ³tems de &c{player} &7han fallado!'
+  player-used-message:
+    totem: '&7El jugador {player} ha consumido un tótem (Probabilidad: {totem_fail}
+      {percent} {number})'
+    totems: '&7El jugador {player} ha consumido {amount} tótems (Probabilidad: {totem_fail}
+      {percent} {number})'
+  fail-probs:
+    30-39: 1
+    40-49: 3
+    50-59: 5
+    60-69: 15
+    70-79: 30
+    80-99: 50
+    100-120: 70
+  fail-probs-list:
+  - '[30-39]: 1'
+  - '[40-49]: 3'
+  - '[50-59]: 5'
+  - '[60-69]: 15'
+  - '[70-79]: 30'
+  - '[80-99]: 50'
+  - '[100-120]: 70'

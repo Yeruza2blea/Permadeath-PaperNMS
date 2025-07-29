@@ -1,0 +1,43 @@
+config-version: 3
+
+server:
+  spanish:
+    item.permadeath.super_golden_apple_plus: "Super Golden Apple +",
+    item.permadeath.hyper_golden_apple_plus: "Hyper Golden Apple +",
+    item.permadeath.ultra_golden_apple_plus: "Ultra Golden Apple +",
+    item.permadeath.infinite_super_golden_apple_plus_plus: "Infinite Super Golden Apple ++",
+
+    item.permadeath.pure_netherite_helmet: "Pure Netherite Helmet",
+    item.permadeath.pure_netherite_chestplate: "Pure Netherite Chestplate",
+    item.permadeath.pure_netherite_leggings": "Pure Netherite Leggings",
+    item.permadeath.pure_netherite_boots": "Pure Netherite Boots",
+
+    item.permadeath.pure_netherite_sword": "Pure Netherite Sword",
+    item.permadeath.pure_netherite_axe": "Pure Netherite Axe",
+    item.permadeath.pure_netherite_pickaxe": "Pure Netherite Pickaxe",
+    item.permadeath.pure_netherite_shovel": "Pure Netherite Shovel",
+    item.permadeath.pure_netherite_hoe": "Pure Netherite Hoe",
+
+
+    item.permadeath.infernal_netherite_helmet: "Infernal Netherite Helmet",
+    item.permadeath.infernal_netherite_chestplate: "Infernal Netherite Chestplate",
+    item.permadeath.infernal_netherite_leggings: "Infernal Netherite Leggings",
+    item.permadeath.infernal_netherite_boots: "Infernal Netherite Boots",
+
+    item.permadeath.infernal_netherite_sword: "Infernal Netherite Sword",
+    item.permadeath.infernal_netherite_axe: "Infernal Netherite Axe",
+    item.permadeath.infernal_netherite_pickaxe: "Infernal Netherite Pickaxe",
+    item.permadeath.infernal_netherite_shovel: "Infernal Netherite Shovel",
+    item.permadeath.infernal_netherite_hoe: "Infernal Netherite Hoe",
+
+
+    item.permadeath.almority_helmet: "Almority Helmet",
+    item.permadeath.almority_chestplate: "Almority Chestplate",
+    item.permadeath.almority_leggings: "Almority Leggings",
+    item.permadeath.almority_boots: "Almority Boots",
+
+    item.permadeath.almority_sword: "Almority Sword",
+    item.permadeath.almority_axe: "Almority Axe",
+    item.permadeath.almority_pickaxe: "Almority Pickaxe",
+    item.permadeath.almority_shovel: "Almority Shovel",
+    item.permadeath.almority_hoe: "Almority Hoe",

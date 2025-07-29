@@ -1,0 +1,17 @@
+players:
+  xel0Yzyruza_:
+    uuid: 6a4f21e3-9636-4632-8bc7-eb1c6d3e1509
+    hp: 0
+    last-day: 1
+    cause: Causa desconocida.
+    time: 03:48:16
+    day: 2025-07-2025-07-29
+    coords: -103|96|-80
+  Yeruza_AA:
+    uuid: efe11e44-f7c7-4ed4-87cc-c88748a4103d
+    hp: 0
+    cause: ExplosiÃ³n
+    time: 03:40:05
+    day: 2025-07-2025-07-29
+    coords: -132|122|-22
+    last-day: 1

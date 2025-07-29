@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a6b4680-91f9-4168-865b-0ba60b68f666" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/banned-ips.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/banned-players.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/bukkit.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/mojang_1.21.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/commands.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/config/paper-global.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/config/paper-world-defaults.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2025-07-29_00.19.55-server.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2025-07-29_00.20.54-server.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2025-07-29_00.29.10-server.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/eula.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/help.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/ca/spottedleaf/concurrentutil/0.0.3/concurrentutil-0.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/github/oshi/oshi-core/6.6.5/oshi-core-6.6.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/protobuf/protobuf-java/4.29.0/protobuf-java-4.29.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/lmax/disruptor/3.4.4/disruptor-3.4.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/microsoft/azure/msal4j/1.17.2/msal4j-1.17.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/mojang/authlib/6.0.58/authlib-6.0.58.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/mojang/jtracy/1.0.29/jtracy-1.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/mojang/logging/1.5.10/logging-1.5.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/mysql/mysql-connector-j/9.2.0/mysql-connector-j-9.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/nimbusds/content-type/2.3/content-type-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/nimbusds/lang-tag/1.7/lang-tag-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/nimbusds/nimbus-jose-jwt/9.40/nimbus-jose-jwt-9.40.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/nimbusds/oauth2-oidc-sdk/11.18/oauth2-oidc-sdk-11.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/com/velocitypowered/velocity-native/3.4.0-SNAPSHOT/velocity-native-3.4.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/commons-io/commons-io/2.17.0/commons-io-2.17.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/io/leangen/geantyref/geantyref/1.3.16/geantyref-1.3.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-buffer/4.1.118.Final/netty-buffer-4.1.118.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-codec-haproxy/4.1.118.Final/netty-codec-haproxy-4.1.118.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-codec/4.1.118.Final/netty-codec-4.1.118.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-common/4.1.118.Final/netty-common-4.1.118.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-handler/4.1.118.Final/netty-handler-4.1.118.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-resolver/4.1.118.Final/netty-resolver-4.1.118.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-transport-classes-epoll/4.1.118.Final/netty-transport-classes-epoll-4.1.118.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-aarch_64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-x86_64.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-transport-native-unix-common/4.1.118.Final/netty-transport-native-unix-common-4.1.118.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-transport/4.1.118.Final/netty-transport-4.1.118.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/io/papermc/asm-utils/0.0.3/asm-utils-0.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/io/papermc/paper/paper-api/1.21.8-R0.1-SNAPSHOT/paper-api-1.21.8-R0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/io/papermc/reflection-rewriter-proxy-generator/0.0.3/reflection-rewriter-proxy-generator-0.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/io/papermc/reflection-rewriter-runtime/0.0.3/reflection-rewriter-runtime-0.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/io/papermc/reflection-rewriter/0.0.3/reflection-rewriter-0.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/it/unimi/dsi/fastutil/8.5.15/fastutil-8.5.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/javax/inject/javax.inject/1/javax.inject-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/me/lucko/spark-api/0.1-20240720.200737-2/spark-api-0.1-20240720.200737-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/me/lucko/spark-paper/1.10.133-20250413.112336-1/spark-paper-1.10.133-20250413.112336-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/java/dev/jna/jna-platform/5.15.0/jna-platform-5.15.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/java/dev/jna/jna/5.15.0/jna-5.15.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-api/4.23.0/adventure-api-4.23.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-key/4.23.0/adventure-key-4.23.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-logger-slf4j/4.23.0/adventure-text-logger-slf4j-4.23.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-minimessage/4.23.0/adventure-text-minimessage-4.23.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-serializer-ansi/4.23.0/adventure-text-serializer-ansi-4.23.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-serializer-commons/4.23.0/adventure-text-serializer-commons-4.23.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-serializer-gson/4.23.0/adventure-text-serializer-gson-4.23.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-serializer-json/4.23.0/adventure-text-serializer-json-4.23.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-serializer-legacy/4.23.0/adventure-text-serializer-legacy-4.23.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-serializer-plain/4.23.0/adventure-text-serializer-plain-4.23.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/ansi/1.1.1/ansi-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/option/1.1.0/option-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/md-5/bungeecord-chat/1.21-R0.2-deprecated+build.21/bungeecord-chat-1.21-R0.2-deprecated+build.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/neoforged/AutoRenamingTool/2.0.3/AutoRenamingTool-2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/neoforged/installertools/cli-utils/2.1.4/cli-utils-2.1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/neoforged/javadoctor/gson-io/2.0.17/gson-io-2.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/neoforged/javadoctor/spec/2.0.17/spec-2.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/neoforged/srgutils/1.0.9/srgutils-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/logging/log4j/log4j-api/2.24.1/log4j-api-2.24.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/logging/log4j/log4j-core/2.24.1/log4j-core-2.24.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/logging/log4j/log4j-iostreams/2.24.1/log4j-iostreams-2.24.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.24.1/log4j-slf4j2-impl-2.24.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/maven-artifact/3.9.6/maven-artifact-3.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/maven-builder-support/3.9.6/maven-builder-support-3.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/maven-model-builder/3.9.6/maven-model-builder-3.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/maven-model/3.9.6/maven-model-3.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/maven-repository-metadata/3.9.6/maven-repository-metadata-3.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/maven-resolver-provider/3.9.6/maven-resolver-provider-3.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/resolver/maven-resolver-api/1.9.18/maven-resolver-api-1.9.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/resolver/maven-resolver-connector-basic/1.9.18/maven-resolver-connector-basic-1.9.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/resolver/maven-resolver-impl/1.9.18/maven-resolver-impl-1.9.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/resolver/maven-resolver-named-locks/1.9.18/maven-resolver-named-locks-1.9.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/resolver/maven-resolver-spi/1.9.18/maven-resolver-spi-1.9.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/resolver/maven-resolver-transport-http/1.9.18/maven-resolver-transport-http-1.9.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/resolver/maven-resolver-util/1.9.18/maven-resolver-util-1.9.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/eclipse/sisu/org.eclipse.sisu.inject/0.9.0.M2/org.eclipse.sisu.inject-0.9.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/jline/jline-native/3.27.1/jline-native-3.27.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/jline/jline-terminal-ffm/3.27.1/jline-terminal-ffm-3.27.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/jline/jline-terminal-jni/3.27.1/jline-terminal-jni-3.27.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/jline/jline-terminal/3.27.1/jline-terminal-3.27.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/ow2/asm/asm/9.8/asm-9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/spongepowered/configurate-core/4.2.0/configurate-core-4.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/spongepowered/configurate-yaml/4.2.0/configurate-yaml-4.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/libraries/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-10.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-11.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-12.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-13.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-14.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-15.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-16.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-17.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-18.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-19.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-20.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-21.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-22.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-23.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-24.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-25.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-26.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-27.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-28.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-29.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-30.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-31.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-32.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-33.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-34.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-35.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-36.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-37.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-38.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-39.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-40.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-41.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-42.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-43.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-44.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-5.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-6.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-7.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-8.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2025-07-29-9.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/ops.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/permissions.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/extra-plugins/PlaceholderAPI-PAPER-2.11.6-1753769385821.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/extra-plugins/WorldEdit-PAPER-7.3.16-1753769385865.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/extra-plugins/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/libraries/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/mappings/reversed/96D6C353E9777E82547E59F2E53E6F400DCF227BD3ED9E5C26220B87FD4F335F.tiny" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/remap-classpath/96D6C353E9777E82547E59F2E53E6F400DCF227BD3ED9E5C26220B87FD4F335F.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/unknown-origin/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/Permadeath/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/Permadeath/lang/message/general.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/Permadeath/logs.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/Permadeath/server/players.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/PlaceholderAPI/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/.unpack_finished" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/af/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/an/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ar/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/arn/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ast/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/av/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/az/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ba/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/be/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/bg/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/bn/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/br-FR/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/brb/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/bs/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ca/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ce/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ckb/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/cs/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/csb/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/cv/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/cy/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/da/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/de-AT/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/de-CH/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/de/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/dsb-DE/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/el/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/en-AU/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/en-CA/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/en-GB/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/en-NZ/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/en-PT/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/en-UD/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/enp/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/enws/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/eo/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/es-AR/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/es-CL/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/es-CO/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/es-CR/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/es-EC/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/es-ES/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/es-MX/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/es-PE/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/es-UY/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/es-VE/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/et/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/eu/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/fa/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/fi/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/fil/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/fo/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/fr-CA/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/fr/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/fra-DE/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/fur-IT/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/fy-NL/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ga-IE/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/gd/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/gl/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/gn/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/got/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/gv/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/haw/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/he/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/hi/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/hr/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/hsb-DE/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/hu/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/hy-AM/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/id/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ido/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ig/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/is/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/it/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ja/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/jbo/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ka/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/kab/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/kk/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/kn/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ko/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ksh/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/kw/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ky/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/la-LA/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/lb/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/li/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/lo/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/lol/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/lt/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/lv/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/me/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/mi/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/mk/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/mn/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/moh/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ms/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/mt/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/nds/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ne-NP/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/nl-BE/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/nl/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/nn-NO/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/no/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/nuk/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/oc/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/oj/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/pa-IN/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/pl/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/pt-BR/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/pt-PT/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/qya-AA/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ro/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ru/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ry-UA/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/sah/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/se/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/sk/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/sl/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/so/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/sq/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/sr-CS/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/sr-Cyrl-ME/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/sr/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/sv-SE/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/swg/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/szl/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ta/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/th/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/tl/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/tlh-AA/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/tr/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/tt-RU/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/tzl/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/uk/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/ur-PK/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/uz/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/val-ES/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/vec/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/vi/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/yi/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/yo/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/zh-CN/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/zh-HK/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/.archive-unpack/8cad675e/zh-TW/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/WorldEdit/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/bStats/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/spark/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/plugins/spark/tmp-client/about.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/server.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/spigot.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/version_history.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/versions/1.21.8/paper-1.21.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/wepif.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/whitelist.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/advancements/6a4f21e3-9636-4632-8bc7-eb1c6d3e1509.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/advancements/efe11e44-f7c7-4ed4-87cc-c88748a4103d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/data/chunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/data/raids.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/data/random_sequences.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/data/scoreboard.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/datapacks/bukkit/pack.mcmeta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/entities/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/entities/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/entities/r.0.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/entities/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/level.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/level.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/paper-world.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/playerdata/6a4f21e3-9636-4632-8bc7-eb1c6d3e1509.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/playerdata/6a4f21e3-9636-4632-8bc7-eb1c6d3e1509.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/playerdata/efe11e44-f7c7-4ed4-87cc-c88748a4103d.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/playerdata/efe11e44-f7c7-4ed4-87cc-c88748a4103d.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/poi/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/poi/r.0.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/region/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/region/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/region/r.-2.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/region/r.-2.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/region/r.0.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/region/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/session.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/stats/6a4f21e3-9636-4632-8bc7-eb1c6d3e1509.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/stats/efe11e44-f7c7-4ed4-87cc-c88748a4103d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world/uid.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/data/chunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/data/raids.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/entities/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/entities/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/region/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/region/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/region/r.0.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/region/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_nether/level.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_nether/level.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_nether/paper-world.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_nether/session.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_nether/uid.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/data/chunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/data/raids_end.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/entities/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/entities/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/entities/r.0.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/entities/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/region/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/region/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/region/r.0.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/region/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_the_end/level.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_the_end/level.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_the_end/paper-world.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_the_end/session.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/world_the_end/uid.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/Permadeath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/At.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/CommandHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/MinecraftCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/MinecraftCommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/PDGroupCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/PDSubCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/Parameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/staff/BanCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/staff/CustomReloadCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/staff/DayConfigCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/staff/ItemCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/staff/LanguageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/staff/PermadeathCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/staff/StormConfigCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/staff/UnbanCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/user/ClanCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/user/DayCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/user/InfoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/commands/user/MessagesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/discord/BotDiscord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/discord/CommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/mongodb/models/MongoModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/mongodb/models/ServerClan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/mongodb/models/ServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/mongodb/models/ServerMedal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/mongodb/models/ServerRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/mongodb/models/ServerUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/mongodb/models/server/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/mongodb/models/server/Messenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/nms/NmsAccessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/nms/NmsHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/api/nms/entities/NmsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/core/CoreRegistries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/core/CoreRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/core/LinkedMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/core/PluginManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/data/BeginningManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/data/DataBaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/data/DateManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/data/EndManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/data/MessageManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/data/PlayerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/data/RecipeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/data/SettingsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/data/TabListManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/data/js/JavaScriptExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/gaming/ApiPlaceHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/gaming/ApiProtocolLib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/gaming/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/gaming/PermadeathScoreboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/gaming/PermadeathTabList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/gaming/achievements/Achievement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/gaming/client/Medals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/gaming/client/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/gaming/client/Permissions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/gaming/client/PlayerMedal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/gaming/client/PlayerRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/gaming/client/Ranks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/gaming/client/Variables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/gaming/scoreboard/ScoreboardMutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/gaming/scoreboard/TeamMutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/KeyId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/NmsAccessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/NmsBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/NmsEnderMob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/NmsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/NmsHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/blocks/CorePower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/blocks/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/CustomCod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/CustomCreeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/CustomGhast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/CustomGiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/CustomIllusioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/DeathModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/Hunter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/SpecialBee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/SpecialCow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/SpecialPig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/UltraRavager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/boss_hunter/BossFighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/boss_hunter/CerebrateLottash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/boss_hunter/Dahakul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/boss_hunter/OverAkkomind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/boss_hunter/Salkkuytah.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/peace/AkkoPurified.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/peace/MobChilling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/nms/main/entities/peace/Npc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/AttributeModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/BukkitBooster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/block/BlockProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/block/PermadeathBlocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/event/CustomBossBarEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/event/DeathRaid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/event/InventoryLockEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/event/LifeOrbEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/event/PermadeathOutEndOrColapsedError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/event/ShulkerShellEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/BlockItemProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/ItemProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/PermadeathItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/PotionProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/armor/ArmorKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/armor/ArmorKits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/armor/ArmorProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/armor/ArmorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/armor/EquipmentAssets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/tool/ToolKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/tool/ToolKits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/tool/ToolProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/tool/ToolType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/utils/base/BannerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/utils/base/ComponentKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/utils/base/Kits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/utils/components/Equippable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/utils/components/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/utils/components/consumable/Animation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/utils/components/consumable/Consumable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/utils/components/custom_model_data/CustomModelData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/item/utils/components/custom_model_data/WrapperCMD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/listener/PluginAdaptedListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/listener/block/BlockListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/listener/entity/EntityListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/listener/entity/HostilyEntityListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/listener/entity/SkeletonListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/listener/entity/SpawnListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/listener/player/ChatListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/listener/player/DetailsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/listener/player/EventPointerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/listener/player/PlayerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/listener/player/SlotBlockListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/listener/player/TotemListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/listener/raids/RaidListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/listener/worlds/NetherWorldListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/listener/worlds/OverworldListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/listener/worlds/PaperListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/task/CatTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/task/boss/akko/AkkoAttacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/task/boss/demon/DemonEndTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/plugin/task/boss/demon/DemonMovesTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/utils/ApiData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/utils/ApiResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/utils/MenuConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/utils/MobFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/utils/MongoDBDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/utils/Reflections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/utils/TextFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/utils/exceptions/ArmorOutSizeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/utils/exceptions/ItemNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/utils/exceptions/ModPackNotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/utils/exceptions/PermadeathException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/utils/exceptions/ToolsOutSizeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/utils/log/GamingLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/utils/log/Log4Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/utils/text/Animation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/utils/text/Coloreable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/utils/text/MutableText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/utils/text/TextComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/worlds/BeginningWorldEdit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/worlds/WorldEditManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/worlds/beginning/BeginningGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/worlds/beginning/BeginningLootTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/worlds/beginning/TheBeginningListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/worlds/beginning/TreePopulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/worlds/end/DemonAttacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/worlds/end/DemonPhase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/worlds/end/TheEndListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/yeruza/plugin/permadeath/worlds/the_void/LostGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lang/item/animated/text.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lang/item/general.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lang/message/animated/text.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lang/message/custom-death.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lang/message/general.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lang/server/animated/text.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lang/server/scoreboard.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lang/server/tablist.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/redsocial.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Permadeath" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Permadeath" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Permadeath" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="run paper" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Permadeath" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Permadeath" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.papermc.paper/paper-api/1.21.8-R0.1-SNAPSHOT/e937642b0c132d75ea2e08a4f27cb93a31901970/paper-api-1.21.8-R0.1-SNAPSHOT-sources.jar!/com/destroystokyo/paper/profile/PlayerProfile.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.papermc.paper/paper-api/1.21.8-R0.1-SNAPSHOT/e937642b0c132d75ea2e08a4f27cb93a31901970/paper-api-1.21.8-R0.1-SNAPSHOT-sources.jar!/io/papermc/paper/ban/BanListType.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.papermc.paper/paper-api/1.21.8-R0.1-SNAPSHOT/e937642b0c132d75ea2e08a4f27cb93a31901970/paper-api-1.21.8-R0.1-SNAPSHOT-sources.jar!/io/papermc/paper/ban/BanListTypeImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.papermc.paper/paper-api/1.21.8-R0.1-SNAPSHOT/e937642b0c132d75ea2e08a4f27cb93a31901970/paper-api-1.21.8-R0.1-SNAPSHOT-sources.jar!/org/bukkit/BanList.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.papermc.paper/paper-api/1.21.8-R0.1-SNAPSHOT/e937642b0c132d75ea2e08a4f27cb93a31901970/paper-api-1.21.8-R0.1-SNAPSHOT-sources.jar!/org/bukkit/Bukkit.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.papermc.paper/paper-api/1.21.8-R0.1-SNAPSHOT/e937642b0c132d75ea2e08a4f27cb93a31901970/paper-api-1.21.8-R0.1-SNAPSHOT-sources.jar!/org/bukkit/ban/ProfileBanList.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.papermc.paper/paper-api/1.21.8-R0.1-SNAPSHOT/e937642b0c132d75ea2e08a4f27cb93a31901970/paper-api-1.21.8-R0.1-SNAPSHOT-sources.jar!/org/bukkit/event/player/AsyncPlayerPreLoginEvent.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.papermc.paper/paper-api/1.21.8-R0.1-SNAPSHOT/e937642b0c132d75ea2e08a4f27cb93a31901970/paper-api-1.21.8-R0.1-SNAPSHOT-sources.jar!/org/bukkit/inventory/view/AnvilView.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="30WptXx68jemuM33vaYSJOaF0xw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build Plugin.executor": "Run",
+    "Gradle.Build Server.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.Permadeath [runDevBundleServer].executor": "Run",
+    "Gradle.Permadeath [runServer].executor": "Run",
+    "Gradle.Run Server.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JDK": "temurin-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/xel0y/Escritorio/Projects/Java/MinecraftServer/Permadeath/build.gradle.kts",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.37356323",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  },
+  "keyToStringList": {
+    "jdk.preference.JDK": [
+      "21=C:/Program Files/Eclipse Adoptium/jdk-21.0.5.11-hotspot"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xel0y\Escritorio\Projects\Java\MinecraftServer\Permadeath\src\main\java\dev\yeruza\plugin\permadeath" />
+      <recent name="C:\Users\xel0y\Escritorio\Projects\Java\MinecraftServer\Permadeath\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Run Server">
+    <configuration name="Build Plugin" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Build Server" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runDevBundleServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Run Server" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.Build Plugin" />
+      <item itemvalue="Gradle.Build Server" />
+      <item itemvalue="Gradle.Run Server" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Run Server" />
+        <item itemvalue="Gradle.Build Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a6b4680-91f9-4168-865b-0ba60b68f666" name="Changes" comment="" />
+      <created>1753753398646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753753398646</updated>
+    </task>
+    <servers />
+  </component>
+</project>
